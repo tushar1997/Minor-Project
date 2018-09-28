@@ -2,14 +2,14 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 //WIFI UserID/Password
-const char *ssid = "AndroidAP";
-const char *password = "9313150219";
+const char *ssid = "******";
+const char *password = "******";
 
 //MQTT Credentials
-const char *mqttServer = "m15.cloudmqtt.com";
-const int mqttPort = 13388;
-const char *mqttUser = "nffzqxes";
-const char *mqttPassword = "6vvaEm4-G6pL";
+const char *mqttServer = "********";
+const int mqttPort = *****;
+const char *mqttUser = "*****";
+const char *mqttPassword = "*******";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
